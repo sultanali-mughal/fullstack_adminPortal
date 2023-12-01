@@ -14,7 +14,7 @@ import salesRoutes from "./routes/sales.js";
 //import User from "./models/user.js";
 //import Product from "./models/product.js";
 //import ProductStat from "./models/productStat.js";
-// import Transaction from "./models/Transaction.js";
+import Transaction from "./models/transaction.js";
 // import OverallStat from "./models/OverallStat.js";
 // import AffiliateStat from "./models/AffiliateStat.js";
 import {
@@ -56,7 +56,7 @@ mongoose.connect(process.env.MONGO_DB).then(() => {
       /* ONLY ADD DATA ONE TIME */
     // AffiliateStat.insertMany(dataAffiliateStat);
     // OverallStat.insertMany(dataOverallStat);
-//Product.insertMany(dataProduct);
-//ProductStat.insertMany(dataProductStat);
-    // Transaction.insertMany(dataTransaction);
+    //Product.insertMany(dataProduct);
+    //ProductStat.insertMany(dataProductStat);
+    //Transaction.insertMany(dataTransaction);
     //User.insertMany(dataUser);
